@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="324" height="243" viewBox="0 0 324 243">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Path_3" fill="rgba(0,0,0,0)" d="M446-22.7l-5 5 .7.7 4.3-4.3 4.3 4.3.7-.7z" clip-rule="evenodd" transform="translate(-441 22.7)"/>
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <path id="Path_2" fill="rgba(0,0,0,0)" d="M438-28h16v16h-16z" transform="translate(-438 28)"/>
+        </clipPath>
+        <clipPath id="clip-path-3">
+            <path id="Path_3-2" fill="none" d="M446-22.7l-5 5 .7.7 4.3-4.3 4.3 4.3.7-.7z" clip-rule="evenodd" transform="translate(-441 22.7)"/>
+        </clipPath>
+        <clipPath id="clip-path-4">
+            <path id="Path_2-2" d="M438-28h16v16h-16z" class="cls-4" transform="translate(-438 28)"/>
+        </clipPath>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#0a272c"/>
+            <stop offset="1" stop-color="#143f46"/>
+        </linearGradient>
+        <style>
+            .cls-4{fill:none}.cls-7{opacity:.5}.cls-10{fill:#161616}.cls-11{opacity:.75}.cls-12{fill:#b7c6c9}.cls-17,.cls-18{fill:#8ea3a7}.cls-17{font-size:5px;font-family:Roboto-Light,Roboto;font-weight:300;letter-spacing:.05em}.cls-19{fill:#8da5a9}
+        </style>
+    </defs>
+    <g id="Group_7129" transform="translate(-721 -292)">
+        <g id="Rectangle_171" fill="url(#linear-gradient)" stroke="#707070" transform="translate(721 292)">
+            <path stroke="none" d="M0 0H324V243H0z"/>
+            <path d="M0.5 0.5H323.5V242.5H0.5z" class="cls-4"/>
+        </g>
+        <text id="THE_HOTEL" fill="#bdd9de" font-family="SegoeUI, Segoe UI" font-size="6px" transform="translate(883 310)">
+            <tspan x="-6.041" y="0">THE </tspan><tspan x="-8.758" y="8">HOTEL</tspan>
+        </text>
+        <g id="Tile" class="cls-7" transform="translate(866.009 454.316)">
+            <g id="chevon--open_16" transform="rotate(90 1.804 1.804)">
+                <g id="Group_2" clip-path="url(#clip-path)" transform="translate(0 5.7)">
+                    <g id="Group_1" clip-path="url(#clip-path-2)" transform="translate(-3 -5)">
+                        <path id="Path_1" d="M436-12h20v-15.7h-20z" class="cls-10" transform="translate(-438 27.7)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g id="Group_7120" transform="translate(808.328 398.786)">
+            <g id="hotel" class="cls-11" transform="translate(12.973)">
+                <g id="Group_5878">
+                    <g id="Group_5877">
+                        <path id="Path_6671" d="M17.5 185.488a.57.57 0 1 1-.806.806l-1.531-1.531a.571.571 0 0 1 0-.806l1.531-1.531a.57.57 0 0 1 .806.806l-.558.558h4.719a.57.57 0 0 1 0 1.139h-4.717z" class="cls-12" transform="translate(-8.505 -177.069)"/>
+                        <path id="Path_6672" d="M131.57 0h9.285a.57.57 0 0 1 .57.57v2.164a.57.57 0 0 1-1.139 0V1.139h-8.146v12.3h8.146v-1.591a.57.57 0 0 1 1.139 0v2.165a.57.57 0 0 1-.57.57h-9.285a.57.57 0 0 1-.57-.57V.57a.57.57 0 0 1 .57-.57z" class="cls-12" transform="translate(-131)"/>
+                    </g>
+                </g>
+            </g>
+            <text id="Check_in" fill="#8ea3a7" font-family="Roboto-Regular, Roboto" font-size="10px" transform="translate(18.672 31.213)">
+                <tspan x="-19.15" y="0">Check in</tspan>
+            </text>
+        </g>
+        <text id="Check_out" fill="#6f8a8f" font-family="Roboto-Regular, Roboto" font-size="10px" transform="translate(939 430)">
+            <tspan x="-22.417" y="0">Check out</tspan>
+        </text>
+        <g id="Tile-2" class="cls-7" transform="translate(978.017 454.316)">
+            <g id="chevon--open_16-2" transform="rotate(90 1.804 1.804)">
+                <g id="Group_2-2" clip-path="url(#clip-path-3)" transform="translate(0 5.7)">
+                    <g id="Group_1-2" clip-path="url(#clip-path-4)" transform="translate(-3 -5)">
+                        <path id="Path_1-2" d="M436-12h20v-15.7h-20z" class="cls-10" transform="translate(-438 27.7)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <text id="English" class="cls-17" transform="translate(991 323)">
+            <tspan x="-8.711" y="0">English</tspan>
+        </text>
+        <g id="question" transform="translate(1008.613 304.34)">
+            <g id="Group_6876">
+                <g id="Group_6875">
+                    <circle id="Ellipse_5" cx=".51" cy=".51" r=".51" class="cls-18" transform="translate(4.711 7.209)"/>
+                    <path id="Path_6681" d="M5.221 0a5.221 5.221 0 1 0 5.221 5.221A5.218 5.218 0 0 0 5.221 0zm0 9.626a4.4 4.4 0 1 1 4.4-4.4 4.4 4.4 0 0 1-4.4 4.4z" class="cls-18"/>
+                    <path id="Path_6682" d="M177.631 128.5a1.633 1.633 0 0 0-1.631 1.631.408.408 0 0 0 .816 0 .816.816 0 1 1 .816.816.408.408 0 0 0-.408.408v1.02a.408.408 0 1 0 .816 0v-.663a1.632 1.632 0 0 0-.408-3.211z" class="cls-18" transform="translate(-172.411 -125.879)"/>
+                </g>
+            </g>
+        </g>
+        <text id="Help" class="cls-17" transform="translate(1014 323)">
+            <tspan x="-5.377" y="0">Help</tspan>
+        </text>
+        <g id="internet" transform="translate(984.808 303.875)">
+            <path id="Path_6683" d="M9.856 1.691a5.774 5.774 0 0 0-8.165 8.165 5.774 5.774 0 0 0 8.165-8.165zM9.808 8.81a7.2 7.2 0 0 0-1.081-.6 9.7 9.7 0 0 0 .288-2.072h1.8A5.024 5.024 0 0 1 9.808 8.81zM.735 6.134h1.8a9.7 9.7 0 0 0 .288 2.072 7.2 7.2 0 0 0-1.081.6 5.024 5.024 0 0 1-1-2.676zm1-3.4a7.2 7.2 0 0 0 1.082.6 9.7 9.7 0 0 0-.288 2.072H.735a5.024 5.024 0 0 1 1-2.676zm6.394-.96a4.88 4.88 0 0 0-.427-.67 5.069 5.069 0 0 1 1.627 1.085 6.471 6.471 0 0 1-.815.455 6.482 6.482 0 0 0-.381-.868zm-.288 1.139a6.491 6.491 0 0 1-2.067.334 6.491 6.491 0 0 1-2.067-.334C4.168 1.6 4.93.722 5.774.722s1.605.878 2.067 2.191zm-4.586 2.5A9.046 9.046 0 0 1 3.5 3.606a7.213 7.213 0 0 0 2.272.363 7.213 7.213 0 0 0 2.272-.363 9.044 9.044 0 0 1 .247 1.807zm5.038.722a9.047 9.047 0 0 1-.247 1.807 7.284 7.284 0 0 0-4.545 0 9.045 9.045 0 0 1-.247-1.807zM3.414 1.776a6.489 6.489 0 0 0-.381.868 6.47 6.47 0 0 1-.815-.455 5.068 5.068 0 0 1 1.623-1.083 4.879 4.879 0 0 0-.427.67zM3.033 8.9a6.487 6.487 0 0 0 .381.867 4.88 4.88 0 0 0 .427.67 5.069 5.069 0 0 1-1.623-1.079 6.474 6.474 0 0 1 .815-.458zm.673-.269a6.554 6.554 0 0 1 4.134 0c-.461 1.314-1.224 2.191-2.067 2.191s-1.605-.874-2.067-2.188zm4.427 1.14a6.487 6.487 0 0 0 .381-.871 6.474 6.474 0 0 1 .815.455 5.069 5.069 0 0 1-1.623 1.082 4.878 4.878 0 0 0 .427-.666zm.882-4.358a9.7 9.7 0 0 0-.288-2.072 7.194 7.194 0 0 0 1.082-.6 5.024 5.024 0 0 1 1 2.676z" class="cls-18"/>
+        </g>
+        <g id="hotel-2" class="cls-11" transform="translate(930.145 397.861)">
+            <g id="Group_5878-2">
+                <g id="Group_5877-2">
+                    <path id="Path_6671-2" d="M20.03 185.693a.606.606 0 1 0 .857.857l1.628-1.628a.607.607 0 0 0 0-.857l-1.628-1.628a.606.606 0 0 0-.857.857l.594.594h-5.018a.606.606 0 1 0 0 1.212h5.018z" class="cls-19" transform="translate(-15 -176.74)"/>
+                    <path id="Path_6672-2" d="M141.48 0h-9.874a.606.606 0 0 0-.606.606v2.3a.606.606 0 1 0 1.212 0v-1.7h8.663V14.3h-8.663v-1.7a.606.606 0 1 0-1.212 0v2.3a.606.606 0 0 0 .606.606h9.874a.606.606 0 0 0 .606-.606V.606A.606.606 0 0 0 141.48 0z" class="cls-19" transform="translate(-127.487)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

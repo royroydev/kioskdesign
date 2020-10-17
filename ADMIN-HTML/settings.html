@@ -1,0 +1,347 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Hotel Admin </title>
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon.png">
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <!-- endinject -->
+  <!-- plugin css for this page -->
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <!-- endinject -->
+  <!-- Layout styles -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- End Layout styles -->
+
+  <!-- custom css styles -->
+  <link rel="stylesheet" href="assets/css/custom.css">
+  <!-- End Layout styles -->
+
+</head>
+
+<body>
+  <div class="container-scroller">
+    <!-- partial:partials/_navbar.html -->
+    <nav class="navbar default-layout  col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+      <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
+        <a class="navbar-brand brand-logo" href="index.html">
+          <img src="assets\images\logo.svg" alt="logo"> </a>
+        <a class="navbar-brand brand-logo-mini" href="index.html">
+          <img src="assets\images\logo.svg" alt="logo"> </a>
+      </div>
+      <div class="navbar-menu-wrapper d-flex align-items-center">
+        <ul class="navbar-nav">
+
+
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <form class="ml-auto search-form " action="#">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search something">
+                <button class="search-btn"> <i class="fa fa-search"></i> </button>
+              </div>
+            </form>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link count-indicator" id="messageDropdown" href="#" data-toggle="dropdown"
+              aria-expanded="false">
+              <img src="assets/images/notifaction-icon.svg" alt="">
+              <span class="count">7</span>
+            </a>
+
+          </li>
+
+          <li class="nav-item dropdown d-none d-xl-inline-block user-dropdown">
+            <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+              <img src="assets/images/user.svg" alt="Profile image"> </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
+              <div class="dropdown-header text-center">
+                <img class="img-md rounded-circle" src="assets/images/face1.jpg" alt="Profile image">
+                <p class="mb-1 mt-3 font-weight-semibold">Allen Moreno</p>
+                <p class="font-weight-light text-muted mb-0">allenmoreno@gmail.com</p>
+              </div>
+              <a href="" class="dropdown-item">My Profile <span class="badge badge-pill badge-danger">1</span><i
+                  class="dropdown-item-icon ti-dashboard"></i></a>
+
+              <a href="" class="dropdown-item">Sign Out<i class="dropdown-item-icon ti-power-off"></i></a>
+            </div>
+          </li>
+        </ul>
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
+          data-toggle="offcanvas">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+      </div>
+    </nav>
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <ul class="nav">
+
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              <i class="menu-icon typcn typcn-document-text"></i>
+              <span class="menu-title">Dashboard</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="menu-icon typcn typcn-shopping-bag"></i>
+              <span class="menu-title">Rooms</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="menu-icon typcn typcn-th-large-outline"></i>
+              <span class="menu-title">Bookings</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="menu-icon typcn typcn-bell"></i>
+              <span class="menu-title">Pages</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+
+              <span class="menu-title">Design</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+
+              <span class="menu-title">Reports</span>
+            </a>
+            <ul class="nav flex-column sub-menu">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Guests</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Bookings </a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+
+              <span class="menu-title">Settings</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+
+              <span class="menu-title">Support</span>
+            </a>
+          </li>
+
+        </ul>
+      </nav>
+      <!-- partial -->
+      <div class="main-panel">
+        <div class="content-wrapper">
+        <div class="tableblock mt50 pB25">
+
+            <div class="tableheading ">
+              <div class="row">
+                <div class="col-md-12">
+                  Choose a preset
+
+
+                </div>
+
+              </div>
+      </div>
+            <div class="choosethme">
+
+              <div class="row">
+                <div class="col-md-5 ">
+                  <div><a href=""><img src="assets/images/light-theme.jpg" class="img-fulid" alt=""></a></div>
+                  <div class="fz20 mT15">Light</div>
+                </div>
+                <div class="col-md-5">
+                  <div><a href=""><img src="assets/images/dark-theme.svg" alt="" class="img-fulid"></a></div>
+                  <div class="fz20 mT15">Dark</div>
+                </div>
+              </div>
+
+            </div>
+
+
+          </div>
+
+          <div class="tableblock mt50 pB25">
+
+            <div class="tableheading ">
+              &nbsp;
+      </div>
+            <div class="choosethme">
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <label for="">Background image</label>
+                    </div>
+                    <div class="col-md-6 col-lg-8">
+                      <div class="custom-file mB15">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label" for="customFile"></label>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                      <label for="">Background image</label>
+                  </div>
+                  <div class="col-md-6 col-lg-8">
+                    <div class="picker">
+                      <input type="color" value="#123a41">
+                      <input type="text" autocomplete="off" spellcheck="false" placeholder="Select color">
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-4">
+                    <label for="">Text color</label>
+                </div>
+                <div class="col-md-6 col-lg-8">
+                  <div class="picker">
+                    <input type="color" value="#ffffff">
+                    <input type="text" autocomplete="off" spellcheck="false" placeholder="Select color">
+                  </div>
+                </div>
+
+
+              
+                <div class="col-md-6 col-lg-4">
+                  <label for="">Button background color</label>
+              </div>
+              <div class="col-md-6 col-lg-8">
+                <div class="picker">
+                  <input type="color" value="#f5af21">
+                  <input type="text" autocomplete="off" spellcheck="false" placeholder="Select color">
+                </div>
+              </div>
+
+
+              <div class="col-md-6 col-lg-4">
+                <label for="">Button text color</label>
+            </div>
+            <div class="col-md-6 col-lg-8">
+              <div class="picker">
+                <input type="color" value="#ffffff">
+                <input type="text" autocomplete="off" spellcheck="false" placeholder="Select color">
+              </div>
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+              <label for="">Accent background color</label>
+          </div>
+          <div class="col-md-6 col-lg-8">
+            <div class="picker">
+              <input type="color" value="#f8c868">
+              <input type="text" autocomplete="off" spellcheck="false" placeholder="Select color">
+            </div>
+          </div>
+
+
+
+          <div class="col-md-6 col-lg-4">
+            <label for="">Accent text color</label>
+        </div>
+        <div class="col-md-6 col-lg-8">
+          <div class="picker">
+            <input type="color" value="#FFB61A">
+            <input type="text" autocomplete="off" spellcheck="false" placeholder="Select color">
+          </div>
+        </div>
+
+
+                </div>
+
+                <div class="row"> 
+                  <div class="col-md-12">
+                    <label for="" style="line-height: normal; padding-top: 15px; vertical-align: top;">Set the background only for home screen </label>
+                    <div class="custom-control custom-radio custom-control-inline on mL25">
+                      <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                      <label class="custom-control-label" for="customRadioInline1"></label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline off">
+                      <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                      <label class="custom-control-label" for="customRadioInline2"></label>
+                    </div>
+                  </div>
+                  <div class="col-md-8 col-lg-4">
+                    <p class="settingText"> Setting it to "no" will make the background
+                      appear for all screens. </p>
+                  </div>
+                
+                </div>
+                
+            </div>
+
+
+          </div>
+
+        </div>
+        <!-- content-wrapper ends -->
+
+      </div>
+      <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+  <!-- plugins:js -->
+  <script src="assets/js/jquery.min.js"></script>
+
+  <!-- endinject -->
+  <!-- Plugin js for this page-->
+  <!-- End plugin js for this page-->
+  <!-- inject:js -->
+  <script src="assets/js/off-canvas.js"></script>
+
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  <script src="assets/js/dashboard.js"></script>
+  <!-- End custom js for this page-->
+<script>
+  // Inputs
+const valueInput = document.querySelector('.picker input[type="text"]');
+const colorInput = document.querySelector('.picker input[type="color"]');
+
+// Sync the color from the picker
+const syncColorFromPicker = () => {
+  valueInput.value = colorInput.value;
+};
+
+// Sync the color from the field
+const syncColorFromText = () => {
+  colorInput.value = valueInput.value;
+};
+
+// Bind events to callbacks
+colorInput.addEventListener("input", syncColorFromPicker, false);
+valueInput.addEventListener("input", syncColorFromText, false);
+
+// Optional: Trigger the picker when the text field is focused
+valueInput.addEventListener("focus", () => colorInput.click(), false);
+
+// Refresh the text field
+syncColorFromPicker();
+
+</script>
+</body>
+
+</html>
